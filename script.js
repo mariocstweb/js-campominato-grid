@@ -29,6 +29,8 @@ const createCell = (num) => {
 
 // Funzione per creare la griglia
 const createGrid = () => {
+  box.innerHTML = "";
+
   for (let i = 1; i <= totalCells; i++) {
     const cell = createCell(i);
     box.appendChild(cell);
