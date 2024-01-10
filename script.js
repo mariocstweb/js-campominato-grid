@@ -13,6 +13,17 @@ const createCell = (num) => {
   const cell = document.createElement("div");
   cell.className = "cell";
   cell.innerText = num;
+
+  cell.addEventListener("click", () => {
+    // Ottieni il numero della cella cliccata
+    const cellNumber = cell.innerText;
+
+    // Stampa il numero della cella nella console
+    console.log("Hai cliccato la cella numero:", cellNumber);
+
+    cell.classList.toggle("bgc-g");
+  });
+
   return cell;
 };
 

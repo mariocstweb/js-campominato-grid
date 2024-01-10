@@ -55,4 +55,6 @@ main {
   align-items: center;
 }
 
-/* FOOTER */
+.bgc-g {
+  background-color: lightgreen;
+}
