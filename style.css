@@ -1,0 +1,61 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 10px;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* HEADER NAVBAR */
+
+header {
+  height: 100px;
+  background-color: #fff;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* MAIN */
+main {
+  height: calc(100vh - 180px);
+  background-color: dodgerblue;
+}
+
+#box {
+  width: 800px;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.cell {
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+  border: 1px solid black;
+  cursor: pointer;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FOOTER */
+
+footer {
+  height: 80px;
+  background-color: #fff;
+}
